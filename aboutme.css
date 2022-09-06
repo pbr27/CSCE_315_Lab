@@ -2,10 +2,17 @@ body {
     background-color: #868686;
 }
 h1 {
-    font-size: 60px;
-    font-family: 'vivaldi';
+    font-size: 70px;
+    font-family: 'monotype corsiva';
     color: white;
-    text-align: center;
     padding-top: 20px;  
-    padding-left: 40px;
+    padding-left: 540px;
+}
+div {
+    background-color: white;
+    position: center;
+    width: 500px;
+    height: 700px;
+    padding: 50px;
+    margin: auto;
 }
