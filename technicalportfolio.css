@@ -1,18 +1,70 @@
 body {
-    background-color: #868686;
+    background-color: maroon;
+    font-family: 'Arial';
 }
 h1 {
     font-size: 70px;
-    font-family: 'monotype corsiva';
+    font-family: 'Arial';
     color: white;
     padding-top: 20px;  
-    padding-left: 430px;
+    padding-left: 360px;
 }
 div {
     background-color: white;
+    color: maroon;
+    font-size: 18px;
     position: center;
-    width: 500px;
-    height: 700px;
+    width: 700px;
+    height: 850px;
     padding: 50px;
     margin: auto;
+}
+.btn {
+    background-color: maroon; 
+    border: 2px solid white;
+    color: white;
+    font-family: 'Arial';
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: white;
+    color: maroon;
+}
+.goback{
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.github{
+    background-color: white;
+    font-size: 15px;
+    color: maroon;
+    border: 2px solid maroon; 
+    padding: 10px 30px;
+    margin-top: 5px;
+    margin-left: 2px; 
+    cursor: pointer;
+}  
+.linkedin{
+    background-color: white;
+    font-size: 15px;
+    color: maroon;
+    border: 2px solid maroon; 
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-left: 2px; 
+    cursor: pointer;
+}
+.github.btn:hover{
+    background-color: maroon;
+    color: white;
+}
+.linkedin.btn:hover{
+    background-color: maroon;
+    color: white;
 }

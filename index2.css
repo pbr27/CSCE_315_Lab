@@ -1,0 +1,116 @@
+body {font-family: Arial; font-size: 20px;}
+
+h2{
+    padding-top: -10px;
+    text-align: center;
+    font-size: 135px;
+    color: maroon;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid maroon;
+  background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: white;
+  color: maroon;
+  font-family: Arial;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 30px;
+  transition: 0.3s;
+  font-size: 35px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: maroon;
+  color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: maroon;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  background-color: maroon;
+  color: white;
+  display: none;
+  padding: 15px 19px;
+  padding-bottom: 25px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.btn {
+  background-color: white; 
+  border: 2.5px solid maroon;
+  color: maroon;
+  font-family: 'Arial';
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 500px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: maroon;
+  text-decoration: none;
+  color: white;
+}
+.toggle{
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.github{
+  background-color: maroon;
+  font-size: 25px;
+  color: white;
+  border: 2px solid white; 
+  padding: 10px 30px;
+  margin-top: 50px;
+  margin-left: 400px; 
+}  
+.linkedin{
+  background-color: maroon;
+  font-size: 25px;
+  color: white;
+  border: 2px solid white; 
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 400px; 
+}
+.github.btn:hover{
+  background-color: white;
+  color: maroon;
+}
+.linkedin.btn:hover{
+  background-color: white;
+  color: maroon;
+}

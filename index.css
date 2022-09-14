@@ -1,0 +1,76 @@
+body {
+    background-color: maroon;
+    color: white;
+}
+h1 {
+    font-size: 160px;
+    font-family: 'Arial';
+    color: white;
+    text-align: center;
+    padding-top: -10px;
+    padding-bottom: -10px; 
+    text-decoration: none;
+}
+.btn-group button {
+    background-color: maroon; 
+    border: 2px solid white; 
+    color: white; 
+    font-size: 25px;
+    font-weight: bold;
+    padding: 35px 90px; 
+    margin: auto;
+    cursor: pointer; 
+    float: left;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+  
+.btn-group button:hover {
+    background: white;
+    color: maroon;
+    text-decoration: none;
+}
+.btn{
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    border: 2.5px solid white;
+    padding: 4px 10px;
+    font-size: 13px;
+    cursor: pointer; 
+}
+.btn:hover{
+    background: white;
+    color: maroon;
+    text-decoration: none;
+}
+a:link {
+    font-family: 'Arial';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+  
+a:active {
+    color: white;
+    text-decoration: none;
+}
